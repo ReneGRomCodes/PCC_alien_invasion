@@ -21,7 +21,6 @@ def check_keyup_event(event, ship):
         ship.moving_left = False
 
 
-
 def check_events(ai_settings, screen, ship, bullets):
     """Respond to key presses and mouse events."""
     for event in pygame.event.get():
